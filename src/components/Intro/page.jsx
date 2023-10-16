@@ -1,9 +1,9 @@
 
 import { ArrowRight } from "../Icons/page";
-// import "./style.scss";
+import "./style.scss";
 const page = () => {
     return (
-        <section id="intro" className="h-[744px] pt-[145px]">
+        <section id="intro" className="pt-[145px]">
             <div className="container mx-auto px-5">
                 <div className="flex flex-col text-white">
                     <h1 className="text-[45px] font-bold w-[550px] mb-5">Abdukarim Mirzayev
