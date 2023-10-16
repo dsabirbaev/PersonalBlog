@@ -4,7 +4,7 @@ import "./style.scss";
 
 const page = () => {
     return (
-        <section className="py-5">
+        <section className="pt-5 pb-20">
             <div className="container mx-auto px-5">
                 <div className="flex justify-around">
                     <div className="flex flex-col gap-y-5">
