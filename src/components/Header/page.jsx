@@ -1,11 +1,11 @@
-
+import { Logo } from "../Icons/page";
 
 const Header = () => {
     return (
-        <header>
+        <header className="pt-10">
             <div className="container mx-auto px-5">
                 <nav>
-                    <a href="" className="text-white">logo</a>
+                    <a href="#" className="text-white"><Logo/></a>
                 </nav>
             </div>
         </header>

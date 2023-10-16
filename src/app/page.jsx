@@ -1,9 +1,10 @@
-import React from 'react';
-
+import Intro from "../components/Intro/page";
+import VideoSection from "../components/VideoSection/page";
 const page = () => {
   return (
-    <div className='container mx-auto px-5'>
-        <h1 className='text-white'>Hello</h1>
+    <div>
+        <Intro/>
+        <VideoSection/>
     </div>
   );
 };
